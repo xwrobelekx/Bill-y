@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D42" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bill" representedClassName="Bill" syncable="YES" codeGenerationType="class">
+        <attribute name="dueDate" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isPaid" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payementAmount" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Month" representedClassName="Month" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Setting" representedClassName="Setting" syncable="YES" codeGenerationType="class">
+        <attribute name="dayDelay" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="hour" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bill" positionX="-81.33984375" positionY="-179.72265625" width="128" height="120"/>
+        <element name="Month" positionX="-342.65625" positionY="5.98046875" width="128" height="60"/>
+        <element name="Setting" positionX="-216" positionY="-81" width="128" height="90"/>
+    </elements>
+</model>
